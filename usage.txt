@@ -1,0 +1,200 @@
+[
+  {
+    "source": "user must be in homepage of adacthotel application",
+    "steps": [
+      {
+        "name": "user must be in homepage of adacthotel application",
+        "aggregatedDurations": {
+          "median": 0.0033173,
+          "average": 0.003317300
+        },
+        "durations": [
+          {
+            "duration": 0.0033173,
+            "location": "file:src/test/resources/Features/adacthotel.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user pass the {string} and {string} in login page",
+    "steps": [
+      {
+        "name": "user pass the \"manimaddy\" and \"5WZ2NI\" in login page",
+        "aggregatedDurations": {
+          "median": 1.2195543,
+          "average": 1.219554300
+        },
+        "durations": [
+          {
+            "duration": 1.2195543,
+            "location": "file:src/test/resources/Features/adacthotel.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click the login button",
+    "steps": [
+      {
+        "name": "user click the login button",
+        "aggregatedDurations": {
+          "median": 1.9489947,
+          "average": 1.948994700
+        },
+        "durations": [
+          {
+            "duration": 1.9489947,
+            "location": "file:src/test/resources/Features/adacthotel.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user choose location",
+    "steps": [
+      {
+        "name": "user choose location",
+        "aggregatedDurations": {
+          "median": 0.5838668,
+          "average": 0.583866800
+        },
+        "durations": [
+          {
+            "duration": 0.5838668,
+            "location": "file:src/test/resources/Features/adacthotel.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user choose hotels",
+    "steps": [
+      {
+        "name": "user choose hotels",
+        "aggregatedDurations": {
+          "median": 0.4353899,
+          "average": 0.435389900
+        },
+        "durations": [
+          {
+            "duration": 0.4353899,
+            "location": "file:src/test/resources/Features/adacthotel.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user book roomtype",
+    "steps": [
+      {
+        "name": "user book roomtype",
+        "aggregatedDurations": {
+          "median": 0.4015878,
+          "average": 0.401587800
+        },
+        "durations": [
+          {
+            "duration": 0.4015878,
+            "location": "file:src/test/resources/Features/adacthotel.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user has to choose roomno on that page",
+    "steps": [
+      {
+        "name": "user has to choose roomno on that page",
+        "aggregatedDurations": {
+          "median": 0.4963064,
+          "average": 0.496306400
+        },
+        "durations": [
+          {
+            "duration": 0.4963064,
+            "location": "file:src/test/resources/Features/adacthotel.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user choose checkin and checkout options",
+    "steps": [
+      {
+        "name": "user choose checkin and checkout options",
+        "aggregatedDurations": {
+          "median": 0.7145934,
+          "average": 0.714593400
+        },
+        "durations": [
+          {
+            "duration": 0.7145934,
+            "location": "file:src/test/resources/Features/adacthotel.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user chhose adult and child details filled",
+    "steps": [
+      {
+        "name": "user chhose adult and child details filled",
+        "aggregatedDurations": {
+          "median": 0.799893,
+          "average": 0.799893000
+        },
+        "durations": [
+          {
+            "duration": 0.799893,
+            "location": "file:src/test/resources/Features/adacthotel.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click final search button",
+    "steps": [
+      {
+        "name": "user click final search button",
+        "aggregatedDurations": {
+          "median": 2.0582349,
+          "average": 2.058234900
+        },
+        "durations": [
+          {
+            "duration": 2.0582349,
+            "location": "file:src/test/resources/Features/adacthotel.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user print order id in console",
+    "steps": [
+      {
+        "name": "user print order id in console",
+        "aggregatedDurations": {
+          "median": 0.2117938,
+          "average": 0.211793800
+        },
+        "durations": [
+          {
+            "duration": 0.2117938,
+            "location": "file:src/test/resources/Features/adacthotel.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.175224">
+    <testcase classname="user book the hotel for staying purpose and bill the order id" name="user book the hotel and print the bill in console" time="23.175224">
+        <system-out>
+            <![CDATA[Given user must be in homepage of adacthotel application....................passed
+When user pass the "manimaddy" and "5WZ2NI" in login page...................passed
+And user click the login button.............................................passed
+And user choose location....................................................passed
+And user choose hotels......................................................passed
+And user book roomtype......................................................passed
+And user has to choose roomno on that page..................................passed
+And user choose checkin and checkout options................................passed
+And user chhose adult and child details filled..............................passed
+And user click final search button..........................................passed
+Then user print order id in console.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

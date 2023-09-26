@@ -1,0 +1,32 @@
+@E2E
+Feature: user book the hotel for staying purpose and bill the order id
+
+  @smoke
+  Scenario Outline: user book the hotel and print the bill in console # src/test/resources/Features/adacthotel.feature:4
+    Given user must be in homepage of adacthotel application
+    When user pass the "<username>" and "<password>" in login page
+    And user click the login button
+    And user choose location
+    And user choose hotels
+    And user book roomtype
+    And user has to choose roomno on that page
+    And user choose checkin and checkout options
+    And user chhose adult and child details filled
+    And user click final search button
+    Then user print order id in console
+
+    Examples: 
+
+  @E2E @smoke
+  Scenario Outline: user book the hotel and print the bill in console # src/test/resources/Features/adacthotel.feature:19
+    Given user must be in homepage of adacthotel application          # StepDefinition.user_must_be_in_homepage_of_adacthotel_application()
+    When user pass the "manimaddy" and "5WZ2NI" in login page         # StepDefinition.user_pass_the_and_in_login_page(String,String)
+    And user click the login button                                   # StepDefinition.user_click_the_login_button()
+    And user choose location                                          # StepDefinition.user_choose_location()
+    And user choose hotels                                            # StepDefinition.user_choose_hotels()
+    And user book roomtype                                            # StepDefinition.user_book_roomtype()
+    And user has to choose roomno on that page                        # StepDefinition.user_has_to_choose_roomno_on_that_page()
+    And user choose checkin and checkout options                      # StepDefinition.user_choose_checkin_and_checkout_options()
+    And user chhose adult and child details filled                    # StepDefinition.user_chhose_adult_and_child_details_filled()
+    And user click final search button                                # StepDefinition.user_click_final_search_button()
+    Then user print order id in console                               # StepDefinition.user_print_order_id_in_console()

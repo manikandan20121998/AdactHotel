@@ -1,0 +1,205 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-12T18:13:50.344Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13972359500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "user book the hotel and print the bill in console",
+        "description": "",
+        "id": "user-book-the-hotel-for-staying-purpose-and-bill-the-order-id;user-book-the-hotel-and-print-the-bill-in-console;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3116300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3317300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user must be in homepage of adacthotel application",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_homepage_of_adacthotel_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219554300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user pass the \"manimaddy\" and \"5WZ2NI\" in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manimaddy\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"5WZ2NI\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.user_pass_the_and_in_login_page(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1948994700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583866800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user choose location",
+            "match": {
+              "location": "StepDefinition.user_choose_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 435389900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user choose hotels",
+            "match": {
+              "location": "StepDefinition.user_choose_hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401587800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user book roomtype",
+            "match": {
+              "location": "StepDefinition.user_book_roomtype()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496306400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user has to choose roomno on that page",
+            "match": {
+              "location": "StepDefinition.user_has_to_choose_roomno_on_that_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 714593400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user choose checkin and checkout options",
+            "match": {
+              "location": "StepDefinition.user_choose_checkin_and_checkout_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 799893000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user chhose adult and child details filled",
+            "match": {
+              "location": "StepDefinition.user_chhose_adult_and_child_details_filled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2058234900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click final search button",
+            "match": {
+              "location": "StepDefinition.user_click_final_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211793800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user print order id in console",
+            "match": {
+              "location": "StepDefinition.user_print_order_id_in_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "user book the hotel for staying purpose and bill the order id",
+    "description": "",
+    "id": "user-book-the-hotel-for-staying-purpose-and-bill-the-order-id",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/adacthotel.feature",
+    "tags": [
+      {
+        "name": "@E2E",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
